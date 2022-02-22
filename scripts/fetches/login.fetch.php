@@ -1,7 +1,7 @@
 <?php
 
 require_once( __DIR__ . '/../../classes/Login.php' );
-require_once( __DIR__ . '/../includes/mongoConnect.inc.php' );
+require_once( __DIR__ . '/../../privates/mongoConnect.inc.php' );
 
 // $dataString = file_get_contents( 'php://input' );
 // $dataObject = json_decode( $dataString, true );

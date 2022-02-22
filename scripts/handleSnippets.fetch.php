@@ -1,6 +1,6 @@
 <?php
 
-require_once( 'mongoConnect.inc.php' );
+require_once( __DIR__ . '/../privates/mongoConnect.inc.php' );
 require_once( '../classes/Snippet.php' );
 require_once( '../classes/MongoHelper.php' );
 

@@ -2,7 +2,7 @@
 
 require_once( 'scripts/session.inc.php' );
 
-require_once( 'scripts/mongoConnect.inc.php' );
+require_once( __DIR__ . '/privates/mongoConnect.inc.php' );
 require_once( 'classes/MongoHelper.php' );
 require_once( 'classes/FanDoc.php' );
 

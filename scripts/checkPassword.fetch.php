@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once( 'mongoConnect.inc.php' );
+require_once( __DIR__ . '/../privates/mongoConnect.inc.php' );
 require_once( '../classes/Snippet.php' );
 
 $dataString = file_get_contents( 'php://input' );

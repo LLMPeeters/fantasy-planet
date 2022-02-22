@@ -1,6 +1,6 @@
 <?php
 
-require_once( __DIR__ . '/../scripts/includes/mongoConnect.inc.php' );
+require_once( __DIR__ . '/../privates/mongoConnect.inc.php' );
 
 abstract class JWTS {
 	

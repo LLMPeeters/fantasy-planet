@@ -8,7 +8,7 @@ require_once( 'session.inc.php' );
 if( $isLoggedIn === false )
 	require_once( 'redirectToIndex.inc.php' );
 
-require_once( 'mongoConnect.inc.php' );
+require_once( __DIR__ . '/../privates/mongoConnect.inc.php' );
 require_once( '../classes/MongoHelper.php' );
 
 if( isset( $_POST['create'] ) )

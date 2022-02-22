@@ -1,7 +1,7 @@
 <?php
 
 require_once( __DIR__ . '/../../classes/FanSnippet.php' );
-require_once( __DIR__ . '/../includes/mongoConnect.inc.php' );
+require_once( __DIR__ . '/../../privates/mongoConnect.inc.php' );
 
 FanSnippet::__init( $client, $client->webber, $client->webber->snippets );
 
