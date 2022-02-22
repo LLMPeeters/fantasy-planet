@@ -1,0 +1,68 @@
+
+{
+    "docs": {
+        "sections": [
+            "objectId1",
+            "objectId2"
+        ],
+        "name": "string",
+        "text": "html string"
+    },
+    
+    "sections": {
+        "name": "string",
+        "text": "html string"
+    },
+    
+    "characters": {
+        "details": {
+            "nickname": "string",
+            "firstName": "string",
+            "middleNames": [],
+            "lastName": "string",
+            "physicalDescription": "html string",
+            "personality": "html string"
+        },
+        "family": {
+            "parent": [
+                { "type": "special", "id": "objectId", "title": "builder" },
+                { "type": "special", "id": "objectId", "title": "overmind" },
+                { "type": "biological", "id": "objectId", "title": "mother" },
+                { "type": "adoptive", "id": "objectId", "title": "father" }
+            ],
+            "children": [
+                { "type": "biological", "id": "objectId", "title": "son" }
+            ]
+        },
+        "images": [ "image objectId", "image objectId" ],
+        "factionAffiliations": {
+            "member": [ "faction objectId2", "faction objectId2" ],
+            "exMember": [ "faction objectId3" ]
+        }
+    },
+    "factions": {
+        "name": "string",
+        "description": "html string",
+        "relations": {
+            "factions": {
+                "parents": [ "faction objectId", "faction objectId" ],
+                "children": [ "faction objectId", "faction objectId" ],
+                "hostile": [ "faction objectId", "faction objectId" ],
+                "friendly": [ "faction objectId", "faction objectId" ],
+                "allied": [ "faction objectId", "faction objectId" ]
+            },
+            "characters": {
+                "members": [ "character objectId", "character objectId" ],
+                "exMembers": [ "character objectId", "character objectId" ],
+                "hostile": [ "character objectId", "character objectId" ],
+                "friendly": [ "character objectId", "character objectId" ]
+            }
+        },
+        "images": [ "image objectId", "image objectId" ]
+    },
+    "images": {
+        "name": "string",
+        "url": "url string",
+        "tags": [ "tag1", "tag2" ]
+    }
+}
