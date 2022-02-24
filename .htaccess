@@ -1,9 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-RewriteRule ^home index.php
-
-RewriteRule ^documents fantasyDocs.php
-RewriteRule ^docs fantasyDocs.php
