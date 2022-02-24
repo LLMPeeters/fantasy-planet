@@ -14,7 +14,7 @@ $someURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Fantasy</title>
+		<title>Fantasy Framework Test</title>
 		
 		<link rel="icon" type="image/png" href="/images/cake.ico">
 		
